@@ -41,7 +41,7 @@ with open('gooloe評論123.csv','w+',newline='', encoding="utf-8-sig") as csvfil
     writer.writerow(('店名','星數','評論數','地區','營業狀態','路線'))
     list1=[]
 
-    for i in range(2):
+    for i in range(1):
         for j in range(10): #選取則數
             driver.find_element_by_xpath("//div[@id='pane']/div/div/div/div/div/div/a["+str(j+1)+"]").click()
             time.sleep(3)
