@@ -14,7 +14,8 @@ import sys
 import time,datetime
 
 url = 'https://www.google.com.tw/maps/@22.6258207,120.3437568,14z'
-key_word = '高雄市美食'
+key_word = input("想要查甚麼!")
+print("請稍後..."+key_word)
 
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
